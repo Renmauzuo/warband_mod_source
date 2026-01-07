@@ -41660,7 +41660,7 @@ I suppose there are plenty of bounty hunters around to get the job done . . .", 
   (try_end),
   ]],
 
-  [anyone|plyr,"mayor_investment_confirm",[], "No -- that's not economical for me at the moment.", "mayor_pretalk",[
+  [anyone|plyr,"mayor_investment_confirm",[], "No -- that's not economical for me at the moment.", "mayor_investment_advice",[
   ]],
 
   [anyone,"mayor_investment_purchase",[], "Very good. Your enterprise should be up and running in about a week. When next you come, and thereafter, you should speak to your {s4} about its operations.", "mayor_pretalk",[

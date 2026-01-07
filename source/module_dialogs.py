@@ -27362,10 +27362,9 @@ I will use this to make amends to those you have wronged, and I will let it be k
    (assign, ":continue", 1),
    (assign, ":is_female", "$character_gender"),
    (try_begin),
-   #(neq, reg0, ":is_female"), #dckplmc
-       (eq, ":is_female", 1),
-       (lt, "$g_disable_condescending_comments", 2),#dckplmc
-       (assign, ":continue", 0),
+      (eq, ":is_female", 1),
+      (eq, "$g_nohomo", 0),
+      (assign, ":continue", 0),
    (try_end),
    (eq, ":continue", 1),
 

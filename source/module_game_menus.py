@@ -14789,7 +14789,7 @@ TOTAL:  {reg5}"),
 
    (
      "dickplo_town_manage",0,
-     "The buisness district is full of opportunities to take advantage of.",
+     "The business district is full of opportunities to take advantage of.",
      "none",
      [
              (try_begin),
